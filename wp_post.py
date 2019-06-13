@@ -12,7 +12,7 @@ def make_post(title, body, img):
     out.write(p.content)
     out.close()
 
-    client = Client('http://levicoin.ru/xmlrpc.php', 'admin', '17520124Kit')
+    client = Client('http://example.com/xmlrpc.php', 'login', 'password')
 
     # set to the path to your file
     filename = 'img.jpg'
