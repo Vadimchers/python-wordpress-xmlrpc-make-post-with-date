@@ -12,7 +12,7 @@ def make_post(title, body, img):
     out.write(p.content)
     out.close()
 
-    client = Client('http://example.com/xmlrpc.php', 'login', 'password')
+    client = Client('http://yourdomain.com/xmlrpc.php', 'login', 'password')
 
     # set to the path to your file
     filename = 'img.jpg'
@@ -29,7 +29,7 @@ def make_post(title, body, img):
     # response == {
     #       'id': 6,
     #       'file': 'picture.jpg'
-    #       'url': 'http://www.example.com/wp-content/uploads/2012/04/16/picture.jpg',
+    #       'url': 'http://www.yourdomain.com/wp-content/uploads/2012/04/16/picture.jpg',
     #       'type': 'image/jpeg',
     # }
     attachment_id = response['id']
