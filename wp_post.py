@@ -43,6 +43,7 @@ def make_post(title, body, img):
     post.terms_names = {
         'post_tag': ['tagA', 'another tag'],
         'category': ['My Category'],
+    }
     post.date = datetime.now(pytz.timezone('Etc/GMT+0'))
     client.call(posts.EditPost(post.id, post))
 
