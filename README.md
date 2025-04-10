@@ -2,4 +2,4 @@
 python-wordpress-xmlrpc make post with date
 
 
-Make Wordpress post with date, categorys and tags using Python and xmlrpc
+Create Wordpress post with date, categories and tags using Python and xmlrpc
